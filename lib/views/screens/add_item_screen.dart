@@ -4,7 +4,7 @@ import 'package:biniyog/views/styles/k_colors.dart';
 import 'package:biniyog/views/styles/k_text_style.dart';
 
 import 'home_page.dart';
-import 'UsersItem.dart';
+import 'user_items_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

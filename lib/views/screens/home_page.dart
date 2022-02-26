@@ -9,9 +9,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'add_item_screen.dart';
-import 'ItemDetails.dart';
+import 'item_details_screen.dart';
 import '../../models/Posts.dart';
-import 'UsersItem.dart';
+import 'user_items_screen.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -117,7 +117,7 @@ class _HomePageState extends State<HomePage> {
             ),
             ListTile(
               onTap: (){
-                Navigator.push(context, FadeRoute(page: UsersItem()));
+                Navigator.push(context, FadeRoute(page: UserItemsScreen()));
               },
               leading: Icon(Icons.add_shopping_cart),
               title: Text("My Items"),
@@ -146,7 +146,7 @@ class _HomePageState extends State<HomePage> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ItemDetails(),
+                builder: (context) => ItemDetailsScreen(),
                 settings: RouteSettings(
                   arguments: postsList[index],
                 ),

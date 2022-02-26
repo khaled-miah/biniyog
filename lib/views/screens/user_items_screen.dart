@@ -5,20 +5,19 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'add_item_screen.dart';
-import 'ItemDetails.dart';
+import 'item_details_screen.dart';
 import '../../models/Posts.dart';
-import 'home_page.dart';
 
-class UsersItem extends StatefulWidget {
+
+class UserItemsScreen extends StatefulWidget {
   final String currentuserId = null;
 
   @override
-  _UsersItemState createState() => _UsersItemState();
+  _UserItemsScreenState createState() => _UserItemsScreenState();
 }
 
-class _UsersItemState extends State<UsersItem> {
+class _UserItemsScreenState extends State<UserItemsScreen> {
   List<KPostsModel> postsList = [];
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -148,7 +147,7 @@ class _UsersItemState extends State<UsersItem> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => ItemDetails(),
+              builder: (context) => ItemDetailsScreen(),
               settings: RouteSettings(
                 arguments: postsList[index],
               ),

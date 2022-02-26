@@ -9,14 +9,14 @@ import 'package:google_sign_in/google_sign_in.dart';
 import '../../models/Bids.dart';
 import 'home_page.dart';
 import '../../models/Posts.dart';
-import 'UsersItem.dart';
+import 'user_items_screen.dart';
 
-class ItemDetails extends StatefulWidget {
+class ItemDetailsScreen extends StatefulWidget {
   @override
-  _ItemDetailsState createState() => _ItemDetailsState();
+  _ItemDetailsScreenState createState() => _ItemDetailsScreenState();
 }
 
-class _ItemDetailsState extends State<ItemDetails> {
+class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
   List<Bids> bidsList = [];
   final bid = TextEditingController();
   String postAuctionId;
