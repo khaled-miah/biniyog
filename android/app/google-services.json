@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740141446402",
+    "project_id": "biniyog-5a69c",
+    "storage_bucket": "biniyog-5a69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740141446402:android:809ac982f965eadddf3e1b",
+        "android_client_info": {
+          "package_name": "com.example.biniyog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740141446402-q1ukeebcf1ni43sgmcl8vmf7q0db2snb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAT9iSV-WcpUdTvSiG5lochU_Z5yp8xY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740141446402-q1ukeebcf1ni43sgmcl8vmf7q0db2snb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-# biniyog
+# Auction App
 
 A new Flutter project.
 
@@ -6,11 +6,18 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Step 1:
+## Used Packages:
+firebase_auth: enabling Android and iOS authentication using passwords, phone numbers and identity providers like Google, Facebook and Twitter.  
+google_sign_in: a secure authentication system for signing in with a Google account on Android and iOS.  
+flutter/material.dart: Flutter SDK library.  
+flutter_signin_button: A Flutter plugin for iOS and Android for generating signin buttons for different social media account.  
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Step 2:  
+## Used Packages:  
+firebase_core: It is responsible for connecting my Flutter app to Firebase project.    
+firebase_storage: It allows to interact with Storage using the default Firebase App.   
+firebase_database: It allows to access data from firebase.  
+image_picker: It is used for picking image from device gallery.  
+intl: It is used for getting random token in the project.  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
